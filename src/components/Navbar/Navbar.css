@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url('../font/OpenSans-Regular.ttf');
+}
+header{
+    display:flex;
+    flex-wrap: nowrap;
+    height:50px;
+    width:100%;
+    background-color:#ffffff;
+    border-bottom: 1px solid #cccccc;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 5;
+}
+/*le menu pour activer le sidebar*/
+.container-icone-menu{
+    display:flex;
+    height:100%;
+    width:60px;
+}
+.container-icone-menu a{
+    margin:auto;
+}
+
+.icone-menu{
+    height:24px;
+    width:24px;
+}
+/*le logo thales qui permet de revenir à la homepage*/
+.logo-thales{
+    height:75px;
+    width:225px;
+}
+.separateur{
+    height:50px;
+    width:1px;
+    background-color: #cccccc;
+}
+/*Nom de l'application de la plateforme*/
+.nom-application{
+    margin-left: 30px;
+    font-size: 23px;
+    font-family: "OpenSans";
+    color:#000000;
+}
+/*******************************************1281px***********************************************/
+/*Pour un ordinateur haute résolution (mon ecran macbook de 13 pouces)*/ 
+@media only screen and (max-width : 1281px){
+    header{
+        height:50px;
+    }
+    .nom-application{
+        margin-left: 30px;
+        font-size: 16px;
+    }
+}
+/*******************************************800px***********************************************/
+/*Pour tablette orienté paysage et ordinateur basse résolution*/
+@media only screen and (max-width : 800px){
+    .nom-application{
+        margin-left: 15px;
+    }
+    .logo-thales{
+        height:65px;
+        width:180px;
+    }
+     header{
+        height:50px;
+    }
+}
+/*******************************************600px***********************************************/
+/*Pour tablette orienté portrait et telephone orienté paysage*/
+@media only screen and (max-width : 600px){
+    header{
+        height:50px;
+    }
+    .nom-application{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .icone-menu{
+        height:20px;
+        width:20px;
+    }
+    .logo-thales{
+        height:60px;
+        width:160px;
+    }
+    .separateur{
+        height:40px;
+    }
+}
+/*******************************************540px***********************************************/
+@media only screen and (max-width : 540px){
+    .logo-thales{
+        height:50px;
+        width:140px;
+    }
+    .icone-menu{
+        height:18px;
+        width:18px;
+    }
+}
+

@@ -1,0 +1,154 @@
+
+/*******************************************1281px***********************************************/
+/*Pour un ordinateur haute résolution (mon ecran macbook de 13 pouces)*/ 
+@media only screen and (max-width : 1281px){
+    .container{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+        position: relative;
+    }
+    .containerSidebar{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+        margin-left:290px;
+        position: relative;
+    }
+    
+    .ligneSeparateur{
+        border-left: 3px solid #1a2432;
+    }
+    
+    .entete{
+         margin-top: 0px;
+         height: 60px;
+         display: flex;
+         width: 100%;
+         align-items: center;
+         position: relative;
+    }
+    
+    .iconeGaucheTitre{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        margin-left: 5px;
+        height: 60px;
+        align-items: center;
+    }
+    .iconeDroiteNavigation{
+        display: flex;
+        width: 20%;
+        justify-content: flex-end;
+        height: 60px;
+        align-items: center;
+    }
+    .chemin{
+        font-size: 18px;
+        color:#1a2432;
+        font-family: OpenSansBold;
+        margin-right: 10px;
+    }
+    .contain1{
+        display: flex;
+        flex-direction: column;
+    }
+    .pdfp{
+        width: 94%;
+        height: 470px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .videoGrand{
+        width: 100%;
+        height: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+    .videoGrandFull{
+        width: 100%;
+        height: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+        background-color: black;
+    }
+    
+    .titreVideo{
+        font-size: 20px;
+        color:#333333;
+        font-family: OpenSansBold;
+    }
+    .lectureAuto{
+        font-size:11px;
+        color:#333333;
+        font-family: OpenSans;
+    }
+    .info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .switch{
+        float: right;
+    }
+    .videoSuivante{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 48px;
+    }
+    .videoSuivanteFull{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 48px;
+    }
+    
+    .videoPetit{
+        width: 137px;
+    }
+    .videoPetit:hover{
+        border : 2px #1a2432 solid;
+    }
+    
+    .videoSuivante img{
+        margin-top:-20px;
+        height: 20px;
+    }
+    .videoSuivante p{
+        font-size:11px;
+        color:#333333;
+        font-family: OpenSansBold;
+    }
+    .videoSuivanteFull img{
+        margin-top:-20px;
+        height: 20px;
+    }
+    .videoSuivanteFull div{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .videoSuivanteFull p{
+        font-size:11px;
+        color:#333333;
+        font-family: OpenSansBold;
+    }
+    .videoPetitSansHover{
+        width: 137px;
+    }
+}
+
+
+@media only screen and (max-width : 600px){
+     .container{
+        margin-top: 50px;
+    }
+}

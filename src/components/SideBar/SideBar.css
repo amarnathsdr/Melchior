@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url('../font/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: "OpenSansBold";
+    src: url('../font/OpenSans-Bold.ttf');
+}
+
+.barrelaterale{
+    z-index: 3;
+    width:330px;
+    background-color: #1a2432;
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+
+.liste{
+    z-index: 2;
+    position: flex;
+    padding-top:0px !important;
+}
+
+/*************************Niveau 1************************************ ACCUEIL SYSTEMES CONTENU*/
+.listeniveau1{
+    background-color: #2d4057 !important;
+    margin-top: 2px !important;
+    margin-right: 4px !important;
+    color: rgba(255,255,255,0.8)!important; 
+    opacity: 0.8;
+    width: 286px;
+    font-family: "OpenSansBold" !important;
+}
+/*Enlever les paddings de l'ensemble listeniveau1*/
+.listeniveau1+div{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+/*Changement de la couleur des fleches*/
+.listeniveau1 svg{
+    color:white !important;
+}
+
+
+/***************************Niveau 2**************************  Les SYSTEMES et instllation utilisation maintenance*/
+
+/*Enleve les lignes rouge du liens */
+.lienComposant{
+    text-decoration: none;
+}
+.listeniveau2{
+    background-color: #4d6785 !important;
+    margin-right: 4px !important;
+    padding-top:0px !important;
+    color: white !important;
+}
+/*Enlever les paddings de l'ensemble listeniveau2*/
+.listeniveau2+div{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+/*Survol*/
+.listeniveau2:hover{
+    background-color: rgba(26,36,50,0.15) !important;
+}
+/*Apres avoir cliqué*/
+.listeniveau2:focus{
+    font-family: "OpenSansBold" !important;
+    background-color: rgba(95,191,212,0.7) !important;
+}
+/*INSTALLATION UTILISATION MAINTENANCE*/
+.contenu .listeniveau2 div{
+    font-family: "OpenSansBold" !important;
+    color: white !important;
+    margin-left:0px !important;
+}
+/*Enleve la fleche*/
+.listeniveau2 button{
+    display: none !important;
+}
+
+/*****************************Niveau 3***********  Documentation formation technique se trouvant dans tous les niveaux 2 du CONTENU*/
+
+.listeniveau3{
+    background-color: #4d6785 !important;
+    margin-right: 4px !important;
+    padding-top:0px !important;
+    color: white !important;
+}
+/*Material-ui sépare beaucoup l'icone et le texte, donc on replace le texte vers la gauche*/
+.listeniveau3 div div{
+    margin-left: -20px;
+}
+.listeniveau3:hover{
+    background-color: rgba(26,36,50,0.15) !important;
+}
+.listeniveau3:focus{
+    font-family: "OpenSansBold" !important;
+    background-color: rgba(95,191,212,0.6) !important;
+}
+.listeniveau3 button{
+     display: none !important;
+}
+.listeniveau3+div{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+/*le filtre*/
+.filtreform{
+    background-color: #4d6785;
+    margin-right: 4px !important;
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+    flex-wrap: wrap; 
+}
+
+/*Filtre avec le placeholder et l'icone*/
+.filtreform input[type=search]{
+    width:260px;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    margin-right: 0px;
+    border: 0px;
+    border-radius:3px;
+    background-color: #2d4057;
+    background-image: url(../images/png/ic_filtre.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 6px;
+    padding-left: 30px;
+}
+/*checkbox*/
+.filtreform input[type=checkbox]{
+    width: 14px;
+    height: 14px;
+    margin-right: 0px;
+    margin-left: 5px;
+    background-color: #2d4057;
+}
+/*l'ensemble des checkboxs*/
+.checkboxfiltre{
+    color: white;
+    height: 40px;
+    font-family: "OpenSans";
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    border-bottom:2px solid rgba(26,36,50,0.5);
+}
+/*Icône des checkboxs*/
+.checkboxfiltre img{
+    width: 14px;
+    height: 14px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+/*************************Niveau 4********************************  PPT Videos storyline 360° Synoptique 3D*/
+.listeniveau4{
+    background-color: #4d6785 !important;
+    margin-right: 4px !important;
+    padding-top:0px !important;
+    color: white !important;
+}
+/*décaler le texte vers la gauche*/
+.listeniveau4 div div{
+    margin-left: -20px;
+}
+.listeniveau4:hover{
+    background-color: rgba(26,36,50,0.15) !important;
+}
+.listeniveau4:focus{
+    font-family: "OpenSansBold" !important;
+    background-color: rgba(95,191,212,0.6) !important;
+}
+
+/****************************Niveau 5**************************** Section*/
+.listeniveau5{
+    background-color: #4d6785 !important;
+    margin-right: 4px !important;
+    padding-top:0px !important;
+    color: white !important;
+    
+}
+.listeniveau5 div div{
+    width:190px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.listeniveau5 button{
+     display: none !important;
+}
+.listeniveau5+div{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+/*Survol*/
+.listeniveau5:hover{
+    background-color: rgba(26,36,50,0.15) !important;
+}
+/*Apres avoir cliqué*/
+.listeniveau5:focus{
+    font-family: "OpenSansBold" !important;
+    background-color: rgba(95,191,212,0.7) !important;
+}
+
+/************************************Niveau 6*********************************** Document pdf*/
+.listeniveau6{
+    width: 230px;
+    background-color: #4d6785 !important;
+    margin-right: 4px !important;
+    padding-top:0px !important;
+    color: white !important;
+}
+.listeniveau6 div div{
+    margin-left: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.listeniveau6 img{
+    margin-left: 70px !important;
+}
+/*Survol*/
+.listeniveau6:hover{
+    font-family: "OpenSansBold" !important;
+}
+/*Apres avoir cliqué*/
+.listeniveau6:focus{
+    font-family: "OpenSansBold" !important;
+}
+.documents{
+    display: flex;
+    background-color: #4d6785;
+    margin-right: 4px !important;
+    align-items: center;
+}
+.radio input[type=radio]{
+    background-color: #2d4057;
+}
+
+.radioGauche{
+    display: flex;
+}
+
+.radioDroite{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+/*******************************************1281px***********************************************/
+/*Pour un ordinateur haute résolution (mon ecran macbook de 13 pouces)*/ 
+@media only screen and (max-width : 1281px){
+    .barrelaterale{
+        width:290px;
+        position: fixed;
+        overflow-y: scroll;
+        top: 0;
+        bottom: 0;
+    }
+}
+@media only screen and (max-width : 600px){
+    .barrelaterale{
+        margin-top: 50px; 
+        width:250px;
+    }
+}

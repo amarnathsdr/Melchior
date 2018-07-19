@@ -1,0 +1,2 @@
+export const CHANGE_SYSTEME = 'CHANGE_SYSTEME'
+

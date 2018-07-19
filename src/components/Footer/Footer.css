@@ -1,0 +1,154 @@
+/*Ecran grande résolution*/
+footer{
+    height:50px;
+    width:100%;
+    background-color: #ffffff;
+    border-top: 1px solid #cccccc;
+    position:absolute;
+    bottom:0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 5;
+    justify-content: space-between;
+    position:fixed;
+}
+/*image de confidentialité*/
+footer img{
+    height:35px;
+    width:220px;
+}
+footer p{
+    color:#666666;
+    font-size: 17px;
+    font-family: "OpenSans";
+}
+.copyright{
+    margin-left: 1.5%;
+}
+.date{
+    margin-right: 1.5%;
+}
+
+/*******************************************1281px***********************************************/
+/*Pour un ordinateur haute résolution (mon ecran macbook de 13 pouces) */ 
+@media only screen and (max-width : 1281px){
+    footer{
+        height:40px;
+    }
+    footer img{
+        height:30px;
+        width:200px;
+    } 
+    footer p{
+        color:#666666;
+        font-size: 15px;
+        font-family: "OpenSans";
+    }
+    .copyright{
+        margin-left: 1.5%;
+    }
+    .date{
+        margin-right: 1.5%;
+    }
+    /*Le nombre de confidentialité défini la taille des images pour une bonne responsivité*/
+    .deux{
+        height:30px;
+        width:170px;
+    }
+    .trois{
+        height:30px;
+        width:150px;      
+    }
+    .quatre{
+        height:26px;
+        width:120px;  
+    }
+}
+
+/*******************************************880px***********************************************/
+/*Pour tablette orienté paysage et ordinateur basse résolution*/
+@media only screen and (max-width : 800px){
+ 
+    footer img{
+        height:26px;
+        width:175px;
+    } 
+    footer p{
+        color:#666666;
+        font-size: 13px;
+        font-family: "OpenSans";
+    }
+    .copyright{
+        margin-left: 2%;
+    }
+    .date{
+        margin-right: 2%;
+    }
+    /*Le nombre de confidentialité défini la taille des images pour une bonne responsivité*/
+    .deux{
+        height:26px;
+        width:160px;
+    }
+    .trois{
+        height:20px;
+        width:100px;      
+    }
+    .quatre{
+        height:17px;
+        width:80px;  
+    }
+}
+/*******************************************600px***********************************************/
+/*Pour tablette orienté portrait et telephone orienté paysage*/
+@media only screen and (max-width : 600px){
+ 
+    footer img{
+        height:25px;
+        width:165px;
+    } 
+    footer p{
+        color:#666666;
+        font-size: 11px;
+        font-family: "OpenSans";
+    }
+    .copyright{
+        margin-left: 3%;
+    }
+    .date{
+        margin-right: 3%;
+    }
+    footer{
+        height:40px;
+    }
+    /*Le nombre de confidentialité défini la taille des images pour une bonne responsivité*/
+    .deux{
+        height:20px;
+        width:110px;
+    }
+    .trois{
+        height:17px;
+        width:80px;      
+    }
+    .quatre{
+        height:14px;
+        width:60px;  
+    }
+}
+
+/*******************************************530px***********************************************/
+@media only screen and (max-width : 530px){
+    /*Le nombre de confidentialité défini la taille des images pour une bonne responsivité*/
+    .deux{
+        height:17px;
+        width:80px;
+    }
+    .trois{
+        height:16px;
+        width:55px;      
+    }
+    .quatre{
+        height:13px;
+        width:40px;  
+    }
+}

@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "OpenSansBold";
+    src: url('../font/OpenSans-Bold.ttf');
+}
+.systeme{
+    width:216px;
+}
+.imageSysteme{
+    height: 140px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.label{
+    font-size: 31px;
+    color: #1a2432;
+    font-family: "OpenSansBold";
+}
+.lienSysteme{
+    text-decoration: none;
+}
+/*******************************************13POUCES***********************************************/
+/*Pour un ordinateur haute résolution (mon ecran macbook de 13 pouces)*/ 
+@media only screen and (max-width : 1281px){
+    .systeme{
+        width:138px;
+    }
+    .imageSysteme{
+        height: 91px;
+        width: 130px;
+        margin-bottom: 0%;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+    .label{
+        font-size: 15px;
+        color: #1a2432;
+        font-family: "OpenSansBold";
+        text-align: center;
+        margin-bottom: 2%;
+    }
+}
+/*******************************************800px***********************************************/
+/*Pour tablette orienté paysage et ordinateur basse résolution*/
+@media only screen and (max-width : 800px){
+    .systeme{
+        width:111px;
+    }
+    .imageSysteme{
+        height: 73px;
+        width: 105px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+    .label{
+        font-size: 13px;
+    }
+}
+
+/*******************************************600px***********************************************/
+/*Pour tablette orienté portrait et télephone orienté paysage*/
+@media only screen and (max-width : 600px){
+    .systeme{
+        width:96px;
+    }
+    .imageSysteme{
+        height: 63px;
+        width: 90px;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+    .label{
+        font-size: 13px;
+    }
+}
+
+/*******************************************540px***********************************************/
+/*télephone orienté profil */
+@media only screen and (max-width : 540px){
+    .systeme{
+        width:48%;
+        margin: 1%;
+    }
+    .imageSysteme{
+        display: none;
+    }
+    .label{
+        background-color:#2d4057;
+        color: white;
+        padding: 8px;
+    }
+    .label:hover{
+        background-color:white;
+        color: #2d4057;
+        border: 3px solid #2d4057;
+        padding: 5px;
+    }
+
+}
+
+

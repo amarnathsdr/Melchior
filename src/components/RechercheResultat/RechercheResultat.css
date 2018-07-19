@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url('../font/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: "OpenSansBold";
+    src: url('../font/OpenSans-Bold.ttf');
+}
+
+.rechercheResultat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.zoneRecherche{
+    height: 180px;
+    width: 1280px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #f8fcff;
+}
+.champRecherche{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.champRecherche input[type=search]{
+    width: 830px;
+    font-size: 15px;
+    padding:10px;
+}
+.champRecherche input[type=image]{
+    position: relative;
+    margin-left: -7%;
+    height: 20px;
+    width:20px; 
+}
+.texteResultat1{
+    font-size: 25px;
+    color: #666666;
+    font-family: "OpenSans";
+    margin-bottom: 15px;
+}
+.texteResultat2{
+    font-size: 25px;
+    color: #1a2432;
+    font-family: "OpenSansBold";
+}
+.resultat{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+}
+.titreResultatRecherche{
+    font-size: 29px;
+    color: #1a2432;
+    font-family: "OpenSansBold";
+    margin-bottom: 15px;
+}
+.sousTitreResultat{
+    font-size: 23px;
+    color: #666666;
+    font-family: "OpenSansBold";
+    margin-bottom: 15px;
+}
+.contenuResultatRecherche{
+    font-size: 23px;
+    color: #000000;
+    font-family: "OpenSans";
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width:1281px){
+    .zoneRecherche{
+        height: 110px;
+        width: 700px;
+        margin-top: 25px;
+    }
+    .champRecherche input[type=search]{
+        width: 500px;
+        padding:5px;
+    } 
+    .zoneRecherche{
+        margin-bottom: 15px;
+    }
+    .champRecherche{
+        margin-bottom: 15px;
+    }
+    .texteResultat1{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .texteResultat2{
+        font-size: 15px;
+    }
+    .resultat{
+        width: 740px;
+    }
+    .titreResultatRecherche{
+        font-size: 20px;
+        margin-bottom:2px;
+    }
+    .sousTitreResultat{
+        font-size: 13px;
+        margin-bottom: 2px;
+    }
+    .contenuResultatRecherche{
+        font-size: 13px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+}
+@media only screen and (max-width:800px){
+    .zoneRecherche{
+        height: 80px;
+        width: 500px;
+        margin-top: 25px;
+    }
+    .champRecherche input[type=search]{
+        width: 400px;
+        padding:5px;
+    } 
+    .champRecherche input[type=image]{
+        margin-left: -9%;
+    }
+    .zoneRecherche{
+        margin-bottom: 15px;
+    }
+    .champRecherche{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .texteResultat1{
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .texteResultat2{
+        font-size: 13px;
+    }
+    .resultat{
+        width: 540px;
+    }
+    .titreResultatRecherche{
+        font-size: 15px;
+        margin-bottom:2px;
+    }
+    .sousTitreResultat{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .contenuResultatRecherche{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width:600px){
+    .zoneRecherche{
+        height: 80px;
+        width: 400px;
+        margin-top: 10px;
+    }
+    .champRecherche input[type=search]{
+        width: 300px;
+    } 
+    .champRecherche input[type=image]{
+        margin-left: -10%;
+    }
+    .zoneRecherche{
+        margin-bottom: 15px;
+    }
+    .champRecherche{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .texteResultat1{
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .texteResultat2{
+        font-size: 13px;
+    }
+    .resultat{
+        width: 440px;
+    }
+    .titreResultatRecherche{
+        font-size: 15px;
+        margin-bottom:2px;
+    }
+    .sousTitreResultat{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .contenuResultatRecherche{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
