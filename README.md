@@ -1,5 +1,5 @@
 # ReactProject
-Mon tout premier premier projet React.
+Mon tout premier projet React.
 
 Il s'agit d'une plateforme documentaire qui propose de la documentation et de la formation sur les produits livrés. 
 
