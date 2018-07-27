@@ -1,13 +1,13 @@
 # ReactProject
 Mon tout premier premier projet React.
 
-Il s'agit d'une plateforme documentaire qui propose des documentations et des formations produits. 
+Il s'agit d'une plateforme documentaire qui propose de la documentation et de la formation sur les produits livrés. 
 
 Nous pouvons donc consulter des documents pdf et des vidéos.
 
-Les documents sont rangés par section. Les sections sont rangés par Sous-systeme et les Sous-systemes par Système.
+Les documents sont rangés par section. Les sections sont rangées par sous-systeme et les sous-systemes par système.
 
-Utilisation de Redux qui permet de centarlisé les etats de l'application.
+Utilisation de Redux qui permet de centraliser les etats des components.
 
 Material-ui est utilisé pour le sidebar.
 
